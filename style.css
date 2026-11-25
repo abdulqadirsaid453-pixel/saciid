@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.shumac {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40;
+}
+.qoraal {
+    width: 50%;
+}
+
+.qoraal p {
+    font-size: large;
+}
+
+.sawir {
+    width: 50%;
+    height: 90%;
+    margin-top: 20px;
+}
+
+.sawir img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    margin-top: 20px;
+    animation: scale 3s ease-in-out infinite
+    alternate
+}
+@keyframes scale {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
